@@ -7,7 +7,7 @@ function Form(props) {
         <input
           type="text"
           placeholder="Write an ingredient"
-          name="recipeName"
+          name="characterName"
         />
         <button>Search</button>
       </form>
