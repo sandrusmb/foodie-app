@@ -1,5 +1,7 @@
 # Buscador de recetas
 
+## Demo
+
 ## Retos
 
 - Trabajar con React.js y React Router
@@ -19,8 +21,6 @@
 - [x] Crear el component Form con un input y un botón
 - [x] Escuchar el evento del botón
 - [x] Prevenir el envío del formulario
-- [x] Leer el value del input para ponerlo en la url de la API
+- [x] Leer el value del input para ponerlo en la url de la API, hacer el fetch
 - [x] Crear el state y el setState
 - [x] Recorrer el array de data(characters) con un map y pintar los datos
-
-## Demo
