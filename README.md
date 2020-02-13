@@ -1,4 +1,4 @@
-# Buscador de recetas
+# Buscador de personajes de Futurama
 
 ## Demo
 
