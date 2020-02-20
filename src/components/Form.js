@@ -8,8 +8,9 @@ function Form(props) {
           type="text"
           placeholder="Write an ingredient"
           name="characterName"
+          className="form__input"
         />
-        <button>Search</button>
+        <button className="form__button">Search</button>
       </form>
     </div>
   );

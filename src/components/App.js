@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheets/App.css";
 import Form from "./Form";
+import Characters from "./Characters";
 
 class App extends React.Component {
   state = {
@@ -33,9 +34,8 @@ class App extends React.Component {
           <h1 className="App-title">Futurama</h1>
         </header>
         <Form getRecipe={this.getRecipe} />
-        {this.state.characters.map(character => {
-          return <p>{character.Name}</p>;
-        })}
+
+        <Characters characters={this.state.characters} />
       </div>
     );
   }
